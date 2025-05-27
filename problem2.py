@@ -4,6 +4,7 @@ when we go up (positive = 1 in the solution used below) and and go out of bounds
 we go either down or right.
 t.c. => O(m * n)
 s.c. => O(1)
+Did this code successfully run on Leetcode : yes 
 """
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:

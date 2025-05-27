@@ -3,6 +3,7 @@ Approach: simulate just as the problem asks. Have a top, bottom , left and right
 matrix we're looking into.
 T.c. => O(m * n)
 s.c => O(1)
+Did this code successfully run on Leetcode :
 """
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:

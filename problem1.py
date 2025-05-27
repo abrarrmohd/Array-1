@@ -3,6 +3,7 @@ Approach : Have a prefix product array starting from left and right and calculat
 to hold the left/right prefix product till current index.
 t.c. = O(n)
 s.c. = O(1)
+Did this code successfully run on Leetcode :yes
 """
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
